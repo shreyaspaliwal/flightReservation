@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 public class Flight extends AbstractEntity {
 
 	private String flightNumber;
-	private String operationgAirlines;
+	private String operatingAirlines;
 	private String departureCity;
 	private String arrivalCity;
 	private Date dateOfDeparture;
@@ -24,11 +24,11 @@ public class Flight extends AbstractEntity {
 	}
 
 	public String getOperationgAirlines() {
-		return operationgAirlines;
+		return operatingAirlines;
 	}
 
 	public void setOperationgAirlines(String operationgAirlines) {
-		this.operationgAirlines = operationgAirlines;
+		this.operatingAirlines = operationgAirlines;
 	}
 
 	public String getDepartureCity() {

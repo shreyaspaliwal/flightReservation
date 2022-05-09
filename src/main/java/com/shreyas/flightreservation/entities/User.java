@@ -3,7 +3,7 @@ package com.shreyas.flightreservation.entities;
 import javax.persistence.Entity;
 
 @Entity
-public class Users extends AbstractEntity {
+public class User extends AbstractEntity {
 
 	private String firstName;
 	private String lastName;
