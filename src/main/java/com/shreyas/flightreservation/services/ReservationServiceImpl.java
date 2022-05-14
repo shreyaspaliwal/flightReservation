@@ -1,5 +1,7 @@
 package com.shreyas.flightreservation.services;
 
+import javax.transaction.Transactional;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +43,7 @@ public class ReservationServiceImpl implements ReservationService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ReservationServiceImpl.class);
 	
 	@Override
+	@Transactional
 	public Reservation bookFlight(ReservationRequest request) {
 		//Make Payment
 		//request.getCardNumber();
