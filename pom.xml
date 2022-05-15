@@ -13,7 +13,7 @@
 	<groupId>com.shreyas.flightreservation</groupId>
 	<artifactId>flightreservation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>flightreservation</name>
 	<description>Flight Reservation</description>
 	<properties>
